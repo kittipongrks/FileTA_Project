@@ -16,6 +16,8 @@
       - Flow_Dify
         ซับซ้อนนิดหน่อยสามารถเขียน Flow ได้ตาม Diagram นี้
         ![Flow Chatbot TA](File(H)/TA_Chatbot/Flow_Dify/ภาพการทำงานของระบบโดยรวม.png)
+
+        Flow หมายเลข 4 จะไปทำการทำงานของ ไฟล์ Project ฝึกงาน(พี).zip
 # Repo สำหรับเชื่อม Dify กับ Flutter
   
   - https://github.com/kittipongrks/Chatbot-TA-project
