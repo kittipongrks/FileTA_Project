@@ -1,8 +1,8 @@
+# Repo นี้สำหรับการใช้งานใน Dify
 
 
-
-# File(H)
-แยกเป็น 2 Chatbot
+## File(H)
+#### แยกเป็น 2 Chatbot
   - Herb_Chatbot
       - RAG_file
         สามารถปรับเปลี่ยนข้อมูลได้ ตอนนี้ Chatbot_herb ยังไม่สมบูรณ์มาก
@@ -14,3 +14,6 @@
         2.)แบบดูจากคำตอบของ User จะใช้ RAG ที่เป็น Hybrid
       - Dify
 
+# Repo สำหรับเชื่อม Dify กับ Flutter
+  
+  - https://github.com/kittipongrks/Chatbot-TA-project
