@@ -1,0 +1,16 @@
+Chuck Settings
+General Settings
+	Parent-Child for context
+	- Paragraph (Delimiter = \n\n , Maximum Chunk length = 2248 , Chunk overlap = 50)
+	Text Pre-procession Rules
+	Replace consecutive spaces, newlines and tabs On
+Index Method
+	High Quality
+Embedding Model
+	(Ollama) mxbai-embed-large:latest (อาจเปลี่ยนได้ถ้าเจอ model ที่ดีกว่า)
+Retrieval Setting
+	Hybrid Search
+	- Rerank Model
+		(Jina) Jina-reranker-v3
+	Top K = 3 
+	Score Threshold = off

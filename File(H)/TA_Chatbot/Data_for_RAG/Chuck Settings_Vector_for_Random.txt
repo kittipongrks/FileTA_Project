@@ -1,0 +1,18 @@
+Chuck Settings
+Parent-Child 
+	Parent-Child for context
+	- Paragraph (Delimiter = \n\n , Maximum Chunk length = 1024)
+	Child-chunk for Retrieval
+	- Delimiter = \n , Maximum Chunk length = 512
+	Text Pre-procession Rules
+	Replace consecutive spaces, newlines and tabs On
+Index Method
+	High Quality
+Embedding Model
+	(Ollama) mxbai-embed-large:latest (อาจเปลี่ยนได้ถ้าเจอ model ที่ดีกว่า)
+Retrieval Setting
+	Vector Search
+	- Rerank model On
+		(Cohere) rerank-multilingual-v3.0
+	Top K = 3 
+	Score Threshold = off
